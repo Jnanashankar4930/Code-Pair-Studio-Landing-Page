@@ -54,7 +54,7 @@ export default function LandingPage() {
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button
                     size="lg"
-                    className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
+                    className="bg-linear-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
                   >
                      <a href="https://codepairstudio.netlify.app/" target="_blank"> Start coding together</a>
                   </Button>
@@ -207,7 +207,7 @@ export default function LandingPage() {
                 <div className="text-sm text-muted-foreground">Room Collabrations</div>
               </div>
               <div className="flex flex-col items-center space-y-2 text-center">
-                <div className="text-3xl font-bold text-blue-600">20+</div>
+                <div className="text-3xl font-bold text-blue-600">80+</div>
                 <div className="text-sm text-muted-foreground">Programming Languages</div>
               </div>
               <div className="flex flex-col items-center space-y-2 text-center">
