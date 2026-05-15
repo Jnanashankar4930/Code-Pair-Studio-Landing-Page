@@ -4,14 +4,14 @@ import Link from "next/link"
 
 export default function AboutPage() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900">
+    <div className="flex flex-col min-h-screen bg-linear-to-br from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900">
       {/* Header */}
       <header className="px-4 lg:px-6 h-16 flex items-center border-b bg-white/80 dark:bg-slate-950/80 backdrop-blur-sm sticky top-0 z-50">
         <Link href="/" className="flex items-center justify-center gap-2">
-          <div className="h-8 w-8 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+          <div className="h-8 w-8 bg-linear-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
             <Code2 className="h-5 w-5 text-white" />
           </div>
-          <span className="font-bold text-xl bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+          <span className="font-bold text-xl bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
             CodePair Studio
           </span>
         </Link>
@@ -33,11 +33,11 @@ export default function AboutPage() {
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                   About{" "}
-                  <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+                  <span className="bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                     CodePair Studio
                   </span>
                 </h1>
-                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="mx-auto max-w-175 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Empowering developers worldwide to collaborate seamlessly and build amazing software together
                 </p>
               </div>
@@ -69,7 +69,7 @@ export default function AboutPage() {
               </div>
               <div className="grid gap-6">
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 bg-linear-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center shrink-0">
                     <Target className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -81,7 +81,7 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 bg-linear-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center shrink-0">
                     <Users className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -92,7 +92,7 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 bg-linear-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center shrink-0">
                     <Zap className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -113,14 +113,14 @@ export default function AboutPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Core Values</h2>
-                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed">
+                <p className="mx-auto max-w-175 text-muted-foreground md:text-xl/relaxed">
                   The principles that guide everything we build
                 </p>
               </div>
             </div>
             <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
               <div className="flex flex-col items-center space-y-4 text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center">
+                <div className="w-16 h-16 bg-linear-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center">
                   <Heart className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold">Developer Happiness</h3>
@@ -129,7 +129,7 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-4 text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center">
+                <div className="w-16 h-16 bg-linear-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center">
                   <Rocket className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold">Innovation</h3>
@@ -138,7 +138,7 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-4 text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center">
+                <div className="w-16 h-16 bg-linear-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center">
                   <Users className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold">Accessibility</h3>
@@ -151,12 +151,12 @@ export default function AboutPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-purple-600 to-blue-600">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-linear-to-r from-purple-600 to-blue-600">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Join Our Community</h2>
-                <p className="mx-auto max-w-[600px] text-purple-100 md:text-xl/relaxed">
+                <p className="mx-auto max-w-150 text-purple-100 md:text-xl/relaxed">
                   Start collaborating with developers around the world today
                 </p>
               </div>
@@ -173,7 +173,7 @@ export default function AboutPage() {
       {/* Footer */}
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-white dark:bg-slate-950">
         <div className="flex items-center gap-2">
-          <div className="h-6 w-6 bg-gradient-to-br from-purple-600 to-blue-600 rounded flex items-center justify-center">
+          <div className="h-6 w-6 bg-linear-to-br from-purple-600 to-blue-600 rounded flex items-center justify-center">
             <Code2 className="h-4 w-4 text-white" />
           </div>
           <p className="text-xs text-muted-foreground">© 2025 CodePair Studio. All rights reserved.</p>

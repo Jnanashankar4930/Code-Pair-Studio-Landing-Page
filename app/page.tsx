@@ -7,14 +7,14 @@ import Link from "next/link"
 
 export default function LandingPage() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900">
+    <div className="flex flex-col min-h-screen bg-linear-to-br from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900">
       {/* Header */}
       <header className="px-4 lg:px-6 h-16 flex items-center border-b bg-white/80 dark:bg-slate-950/80 backdrop-blur-sm sticky top-0 z-50">
         <Link href="/" className="flex items-center justify-center gap-2">
-          <div className="h-8 w-8 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+          <div className="h-8 w-8 bg-linear-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
             <Code2 className="h-5 w-5 text-white" />
           </div>
-          <span className="font-bold text-xl bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+          <span className="font-bold text-xl bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
             CodePair Studio
           </span>
         </Link>
@@ -41,11 +41,11 @@ export default function LandingPage() {
                   </Badge>
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     Code Together in{" "}
-                    <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+                    <span className="bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                       Real-Time
                     </span>
                   </h1>
-                  <p className="max-w-[600px] text-muted-foreground md:text-xl">
+                  <p className="max-w-150 text-muted-foreground md:text-xl">
                     Experience seamless collaborative coding with CodePair Studio. Built on Socket.IO and CodeMirror,
                     enabling multiple developers to code together instantly with live cursors, real-time edits, and
                     synchronized debugging.
@@ -95,7 +95,7 @@ export default function LandingPage() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Powerful Features for Modern Development
                 </h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="max-w-225 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Built with cutting-edge technology to provide the smoothest collaborative coding experience
                 </p>
               </div>
@@ -103,7 +103,7 @@ export default function LandingPage() {
             <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
               <Card className="relative overflow-hidden">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-2">
+                  <div className="w-12 h-12 bg-linear-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-2">
                     <Users className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle>Real-time Collaboration</CardTitle>
@@ -115,7 +115,7 @@ export default function LandingPage() {
               </Card>
               <Card className="relative overflow-hidden">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-2">
+                  <div className="w-12 h-12 bg-linear-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-2">
                     <Code2 className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle>Advanced Code Editor</CardTitle>
@@ -127,7 +127,7 @@ export default function LandingPage() {
               </Card>
               <Card className="relative overflow-hidden">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center mb-2">
+                  <div className="w-12 h-12 bg-linear-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center mb-2">
                     <Zap className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle>Lightning Fast</CardTitle>
@@ -138,7 +138,7 @@ export default function LandingPage() {
               </Card>
               <Card className="relative overflow-hidden">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center mb-2">
+                  <div className="w-12 h-12 bg-linear-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center mb-2">
                     <Shield className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle>Secure & Private</CardTitle>
@@ -149,7 +149,7 @@ export default function LandingPage() {
               </Card>
               <Card className="relative overflow-hidden">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center mb-2">
+                  <div className="w-12 h-12 bg-linear-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center mb-2">
                     <Monitor className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle>Desktop Version Available</CardTitle>
@@ -161,7 +161,7 @@ export default function LandingPage() {
               </Card>
               <Card className="relative overflow-hidden">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg flex items-center justify-center mb-2">
+                  <div className="w-12 h-12 bg-linear-to-br from-indigo-500 to-indigo-600 rounded-lg flex items-center justify-center mb-2">
                     <Palette className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle>Drawing Canvas Tool</CardTitle>
@@ -176,14 +176,14 @@ export default function LandingPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-purple-600 to-blue-600">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-linear-to-r from-purple-600 to-blue-600">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center text-white">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                   Ready to Transform Your Development Workflow?
                 </h2>
-                <p className="mx-auto max-w-[600px] text-purple-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="mx-auto max-w-150 text-purple-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Join thousands of developers already using CodePair Studio to build better software together.
                 </p>
               </div>
@@ -226,25 +226,12 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-white dark:bg-slate-950">
         <div className="flex items-center gap-2">
-          <div className="h-6 w-6 bg-gradient-to-br from-purple-600 to-blue-600 rounded flex items-center justify-center">
+          <div className="h-6 w-6 bg-linear-to-br from-purple-600 to-blue-600 rounded flex items-center justify-center">
             <Code2 className="h-4 w-4 text-white" />
           </div>
-          <p className="text-xs text-muted-foreground">© 2024 CodePair Studio. All rights reserved.</p>
+          <p className="text-xs text-muted-foreground">© 2026 CodePair Studio. All rights reserved.</p>
         </div>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link href="#" className="text-xs hover:underline underline-offset-4">
-            Terms of Service
-          </Link>
-          <Link href="#" className="text-xs hover:underline underline-offset-4">
-            Privacy Policy
-          </Link>
-          <Link href="#" className="text-xs hover:underline underline-offset-4">
-            Documentation
-          </Link>
-          <Link href="#" className="text-xs hover:underline underline-offset-4">
-            Support
-          </Link>
-        </nav>
+       
       </footer>
     </div>
   )
