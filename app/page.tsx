@@ -15,7 +15,7 @@ export default function LandingPage() {
             <Code2 className="h-5 w-5 text-white" />
           </div>
           <span className="font-bold text-xl bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-            CodePair Studio
+            Code Pair Studio
           </span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
@@ -46,7 +46,7 @@ export default function LandingPage() {
                     </span>
                   </h1>
                   <p className="max-w-150 text-muted-foreground md:text-xl">
-                    Experience seamless collaborative coding with CodePair Studio. Built on Socket.IO and CodeMirror,
+                    Experience seamless collaborative coding with Code Pair Studio. Built on Socket.IO and CodeMirror,
                     enabling multiple developers to code together instantly with live cursors, real-time edits, and
                     synchronized debugging.
                   </p>
@@ -56,13 +56,12 @@ export default function LandingPage() {
                     size="lg"
                     className="bg-linear-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
                   >
-                     <a href="https://codepairstudio.netlify.app/" target="_blank"> Start coding together</a>
+                     <a href="https://Code Pairstudio.netlify.app/" target="_blank"> Start coding together</a>
                   </Button>
                 </div>
                 <div className="flex items-center gap-4 text-sm text-muted-foreground">
                   <div className="flex items-center gap-1">
                     <Users className="w-4 h-4" />
-                    <span>10K+ developers</span>
                   </div>
                   <div className="flex items-center gap-1">
                     <Zap className="w-4 h-4" />
@@ -76,10 +75,10 @@ export default function LandingPage() {
               </div>
               <div className="mx-auto aspect-video overflow-hidden rounded-xl border lg:order-last">
                 <Image
-                  src="/images/codepair-hero.png"
+                  src="/images/Code Pair-hero.png"
                   width="600"
                   height="400"
-                  alt="CodePair Studio - Real-time collaborative code editor"
+                  alt="Code Pair Studio - Real-time collaborative code editor"
                   className="object-cover w-full h-full"
                 />
               </div>
@@ -184,7 +183,7 @@ export default function LandingPage() {
                   Ready to Transform Your Development Workflow?
                 </h2>
                 <p className="mx-auto max-w-150 text-purple-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Join thousands of developers already using CodePair Studio to build better software together.
+                  Join thousands of developers already using Code Pair Studio to build better software together.
                 </p>
               </div>
               <div  className="pt-4">
@@ -229,7 +228,7 @@ export default function LandingPage() {
           <div className="h-6 w-6 bg-linear-to-br from-purple-600 to-blue-600 rounded flex items-center justify-center">
             <Code2 className="h-4 w-4 text-white" />
           </div>
-          <p className="text-xs text-muted-foreground">© 2026 CodePair Studio. All rights reserved.</p>
+          <p className="text-xs text-muted-foreground">© 2026 Code Pair Studio. All rights reserved.</p>
         </div>
        
       </footer>

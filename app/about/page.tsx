@@ -12,7 +12,7 @@ export default function AboutPage() {
             <Code2 className="h-5 w-5 text-white" />
           </div>
           <span className="font-bold text-xl bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-            CodePair Studio
+            Code Pair Studio
           </span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
@@ -34,7 +34,7 @@ export default function AboutPage() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                   About{" "}
                   <span className="bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                    CodePair Studio
+                    Code Pair Studio
                   </span>
                 </h1>
                 <p className="mx-auto max-w-175 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -57,7 +57,7 @@ export default function AboutPage() {
                   Breaking Down Barriers in Remote Development
                 </h2>
                 <p className="text-muted-foreground md:text-lg/relaxed">
-                  CodePair Studio was born from a simple belief: distance should never hinder collaboration. We created
+                  Code Pair Studio was born from a simple belief: distance should never hinder collaboration. We created
                   a platform that makes pair programming and team coding feel as natural as sitting side-by-side,
                   regardless of where your team members are located.
                 </p>
@@ -162,7 +162,7 @@ export default function AboutPage() {
               </div>
               <div className="pt-4">
                 <Button  size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
-                 <a href="https://codepairstudio.netlify.app/" > Get Started</a>
+                 <a href="https://Code Pairstudio.netlify.app/" > Get Started</a>
                 </Button>
               </div>
             </div>
@@ -176,7 +176,7 @@ export default function AboutPage() {
           <div className="h-6 w-6 bg-linear-to-br from-purple-600 to-blue-600 rounded flex items-center justify-center">
             <Code2 className="h-4 w-4 text-white" />
           </div>
-          <p className="text-xs text-muted-foreground">© 2025 CodePair Studio. All rights reserved.</p>
+          <p className="text-xs text-muted-foreground">© 2025 Code Pair Studio. All rights reserved.</p>
         </div>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link href="#" className="text-xs hover:underline underline-offset-4">
