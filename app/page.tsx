@@ -56,7 +56,7 @@ export default function LandingPage() {
                     size="lg"
                     className="bg-linear-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
                   >
-                     <a href="https://Code Pairstudio.netlify.app/" target="_blank"> Start coding together</a>
+                     <a href="https://codepairstudio.netlify.app/" target="_blank"> Start coding together</a>
                   </Button>
                 </div>
                 <div className="flex items-center gap-4 text-sm text-muted-foreground">
@@ -188,7 +188,7 @@ export default function LandingPage() {
               </div>
               <div  className="pt-4">
                 <Button  size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
-                   <Link href="http://localhost:4000/about" className="text-sm font-medium hover:text-purple-600 transition-colors">
+                   <Link href="/about" className="text-sm font-medium hover:text-purple-600 transition-colors">
             About
           </Link>
                 </Button>

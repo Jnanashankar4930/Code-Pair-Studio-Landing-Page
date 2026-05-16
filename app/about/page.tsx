@@ -162,7 +162,7 @@ export default function AboutPage() {
               </div>
               <div className="pt-4">
                 <Button  size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
-                 <a href="https://Code Pairstudio.netlify.app/" > Get Started</a>
+                 <a href="https://codepairstudio.netlify.app/" > Get Started</a>
                 </Button>
               </div>
             </div>
