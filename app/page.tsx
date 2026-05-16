@@ -75,7 +75,7 @@ export default function LandingPage() {
               </div>
               <div className="mx-auto aspect-video overflow-hidden rounded-xl border lg:order-last">
                 <Image
-                  src="/images/Code Pair-hero.png"
+                  src="/images/codepair-hero.png"
                   width="600"
                   height="400"
                   alt="Code Pair Studio - Real-time collaborative code editor"
