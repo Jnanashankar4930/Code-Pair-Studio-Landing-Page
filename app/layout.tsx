@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     'Remote Engineering', 
     'JDoodle API'
   ],
-  authors: [{ name: 'Vaibhav', url: 'https://portfolio-steel-six-31.vercel.app/' }],
+  authors: [{ name: 'Jnana', url: 'https://portfolio-steel-six-31.vercel.app/' }],
   colorScheme: 'dark', // Since we've been using a dark developer aesthetic
-  creator: 'Vaibhav',
-  publisher: 'Vaibhav',
+  creator: 'Jnana',
+  publisher: 'Jnana',
   formatDetection: {
     email: false,
     address: false,
